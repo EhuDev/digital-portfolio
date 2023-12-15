@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Contact</title>
+    <script
+      src="https://kit.fontawesome.com/e889e24a32.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="home.html"> <h1>EHU</h1></a>
+      <ul class="navbar">
+        <a href="home.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Project</a>
+        <a href="contact.html">Contact</a>
+      </ul>
+      <div class="socmed">
+        <a href="https://www.facebook.com/jhonard06" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://github.com/EhuDev" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.tiktok.com/@j.ehuu" target="_blank"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+        <div class="bx bx-menu" id="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <form
+      action="https://formspree.io/f/myyrgydn"
+      method="POST"
+      class="form-container"
+    >
+      <h1 class="Text">Contact Me</h1>
+      <input
+        class="name"
+        type="text"
+        name="name"
+        placeholder="Name"
+        autocomplete="off"
+        required
+      />
+      <input
+        class="number"
+        type="text"
+        name="name"
+        placeholder="Phone Number"
+        autocomplete="off"
+        required
+      />
+      <input
+        class="email"
+        type="text"
+        name="email"
+        placeholder="Email"
+        autocomplete="off"
+        required
+      />
+      <textarea
+        name="message"
+        id=""
+        cols="60"
+        rows="5"
+        placeholder="Enter your text"
+        autocomplete="off"
+        required
+      ></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
